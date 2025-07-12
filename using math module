@@ -1,0 +1,13 @@
+# math problems using math module
+
+import math
+
+n = int(input("enter value of n: "))
+
+sq_root = math.sqrt(n)
+logarithm = math.log(n)
+sine_value = math.sin(n)
+
+print("square root of the number n is: ",sq_root)
+print("logarithm value of the number n is: ",logarithm)
+print("sine value of number n is: ", sine_value)
